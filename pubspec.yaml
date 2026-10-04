@@ -1,0 +1,22 @@
+name: vibecatch
+description: VibeCatch - a visual social discovery app for Android and iOS.
+publish_to: 'none'
+version: 0.3.0+3
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.4.10
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+  uuid: ^4.5.1
+
+flutter:
+  uses-material-design: true
